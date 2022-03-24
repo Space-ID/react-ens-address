@@ -1,6 +1,6 @@
 {
-  "name": "@ensdomains/react-ens-address",
-  "version": "0.0.29",
+  "name": "@siddomains/react-ens-address",
+  "version": "0.0.3",
   "description": "React ENS address component",
   "main": "dist/index.js",
   "files": [
@@ -11,7 +11,7 @@
   "scripts": {
     "test": "jest --watch --verbose",
     "build": "babel src -d dist --ignore src/**/*.test.js,**/__tests__/** --copy-files",
-    "pub": "yarn build && yarn publish"
+    "pub": "yarn build && yarn publish --access public"
   },
   "author": "Jeff Lau",
   "license": "ISC",
@@ -50,7 +50,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.14",
     "@emotion/styled": "^10.0.14",
-    "@ensdomains/ui": "^3.2.3",
+    "@siddomains/ui": "^1.3.7",
     "ethers": "^4.0.32",
     "lodash": "^4.17.13"
   },
