@@ -1,4 +1,4 @@
-import { setupENS } from '@ensdomains/ui'
+import { setupENS } from '@siddomains/ui'
 
 let ens = {}
 
